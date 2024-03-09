@@ -13,11 +13,11 @@
 <body class="bg-dark font-poppins text-white">
     <header class="md:w-[80%] lg:w-[60%] mx-auto mt-[40px]  shadow-bod">
             <ul class="hidden md:flex gap-20">
-                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Contact</a></li>
-                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Resume</a></li>
+                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Home</a></li>
                 <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">About</a></li>
-                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Certaficate</a></li>
                 <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Projects</a></li>
+                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Skills</a></li>
+                <li class="shadow-custom bg-black rounded-lg px-2 py-1 text-sm"><a href="#">Contact</a></li>
             </ul>
             <div class="md:hidden text-right">
                 <a href="#" class=""><i class=" ri-menu-line text-6xl rounded-full px-4 py-3 mr-7 bg-mblu"></i></a>
@@ -64,9 +64,9 @@
                     <button><i class="ri-github-fill text-3xl"></i></button>
                 </div>
                 <ul class="flex gap-5 mt-5 md:block md:mt-0">
-                    <a href="#"><img src="images/ie-line.svg"  class="w-[100px] h-[100px] shadow-img rounded-full"></a>
-                    <a href="#"><img src="images/ie-line.svg"  class="w-[100px] h-[100px] shadow-img rounded-full"></a>
-                    <a href="#"><img src="images/ie-line.svg"  class="w-[100px] h-[100px] shadow-img rounded-full"></a>
+                    <a href="#"><img src="images/Rectangle.png"  class="mb-2 shadow-img rounded-full"></a>
+                    <a href="#"><img src="images/Rectangle.png"  class="mb-2 shadow-img rounded-full"></a>
+                    <a href="#"><img src="images/Rectangle.png"  class="mb-2 shadow-img rounded-full"></a>
                 </ul>
             </div>
         </div>
@@ -100,12 +100,25 @@
             <div class="w-3/4 h-2 bg-mblu rounded-s-full"></div>
             <div class="w-1/4 h-2 bg-orange rounded-e-full"></div>
         </div>
-        <div>
-            <form action="">
-               
-
+        <div class="">
+            <form class="mt-10 text-center">
+               <div class="md:flex gap-[10%] mb-4 justify-center">
+                <input type="text" name="name" placeholder="Name" class="shadow-img bg-dark transparent w-[90%]  py-[11px] pl-[10px] outline-none md:w-[40%] mb-5">
+               <input type="email" name="email" placeholder="Email" class="shadow-img bg-dark transparent w-[90%]  py-[11px] pl-[10px] outline-none md:w-[40%] mb-5">
+               </div>
+               <textarea name="message" placeholder="Message" rows="10" class=" shadow-img bg-dark transparent w-[90%]  py-[11px] pl-[10px] outline-none "></textarea>
+               <button class="mt-5 shadow-custom bg-black rounded-lg px-4 py-2 text-md w-[100px]">Send</button>
             </form>
         </div>
     </section>
+    <footer class="md:w-[80%] mx-auto mt-[80px] px-4 pb-3 mb-7 shadow-img">
+        <p class="text-center">HANDCRAFTED WITH <span class=" text-red text-3xl">&hearts;</span></p>
+        <ul class="flex gap-3 justify-center mt-4">
+            <li><a href="#"><i class="ri-facebook-circle-fill text-3xl"></i></a></li>
+            <li><a href="#"><i class="ri-instagram-fill text-3xl"></i></a></li>
+            <li><a href="#"><i class="ri-github-fill text-3xl"></i></a></li>
+            <li><a href="#"><i class="ri-linkedin-fill text-3xl"></i></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
