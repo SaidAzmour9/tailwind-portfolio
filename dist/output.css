@@ -621,6 +621,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -1044,6 +1048,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-light {
